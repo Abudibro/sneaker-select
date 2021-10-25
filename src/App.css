@@ -1,0 +1,121 @@
+* {
+    /* font-family: Andale Mono, monospace	; */
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color:rgb(88, 88, 88);
+ }
+
+.home-intro {
+    min-height: 350px;
+    height: 40vw;
+}
+
+.home-intro-left {
+    background-color: black;
+}
+
+.featured-collection-title {
+    /* color: #7f1e1d; */
+    color: black;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: black;
+}
+
+
+.swiper-container-horizontal > .swiper-scrollbar {
+    bottom: 0%;
+    top: 97%;
+    right: 0;
+    left: 16.25%;
+    width: 65%;
+    /* height: 20px; */
+    background-color: #e2e2e2;
+
+}
+
+.swiper-scrollbar-drag {
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.swiper-scrollbar-drag:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+.swiper-scrollbar-drag:active {
+    transform: scale(0.6);
+}
+
+
+
+.form-group {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #0079bf;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: 9px;
+    width: 6px;
+    height: 14px;
+    border: solid #0079bf;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+.checkout-arrow {
+    transition: all .3s ease-in-out;
+}

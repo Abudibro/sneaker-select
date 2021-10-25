@@ -1,0 +1,167 @@
+
+.main, .active {
+  min-height: 65px;
+  background: white;
+}
+
+.nav-wrapper {
+  transition: transform .9s linear;
+}
+
+.main {
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  min-height: 250px;
+  align-items: center;
+}
+
+.idle {
+  height: 65px;
+}
+
+.main-nav, .active-nav {
+  list-style-type: none;
+}
+
+.main-nav, .idle-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.active-nav {
+  transition: all 1s ease;
+  transform: translate(0, 10%);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.idle-nav {
+  position: absolute;
+  bottom: 100%;
+  transform: translate(0, -250%);
+  transition: all 1s ease;
+
+}
+
+.active-nav .active-link, .active-nav .main-link {
+  margin: 0px auto;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.active-link:hover, .main-link:hover {
+  color:rgb(88, 88, 88);
+}
+
+.active-link {
+  width: fit-content;
+}
+
+.main-link {
+  margin: 10px 10px 0 10px;
+  cursor: pointer;
+  align-self: stretch;
+}
+
+.bars-main {
+  display: none;
+}
+
+.bars {
+  float: right;
+  margin-top: 23px;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  font-size: 25px !important;
+  transition: all .3 ease;
+}
+
+.active-icon {
+  font-size: 25px !important ;
+  margin: 0 10px 0 10px;
+  transition: all .6 ease;
+}
+
+.nav-icon, .active-icon {
+  box-sizing: border-box;    
+  cursor: pointer;
+  border-radius: 50%;
+  
+}
+
+.nav-icon:hover, .active-icon:hover {
+  opacity: .8;
+
+}
+
+#search-bar-wrapper {
+  width: auto;
+  max-width: 283px;
+  display: flex;
+  justify-content: flex-start;
+  text-align: center;
+  align-items: center;
+  margin: 6px 5px 15px 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 33px;
+  border: 1px solid black;
+  border-radius: 15px;
+  cursor: none;
+}
+
+#search-bar-wrapper:hover {
+  border: 1px solid rgb(88, 88, 88);;
+}
+
+
+#search-bar-icon {
+  font-size: 17px;
+  margin-right: 10px;
+}
+
+#nav-search {
+  border: none;
+  width: 155px;
+  transition: all .1s ease-in;
+}
+
+#nav-search:focus {
+  outline: none;
+  width: 240px;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 44px;
+}
+
+.selected-size-wrapper {
+  background-color: black;
+}
+
+.selected-size {
+  color: white;
+}
+
+.select-size-error {
+  color: red;
+}
+
+.select-size-error-border {
+  border: 1px solid red;
+}
+
+.disabled-link {
+  pointer-events: none;
+}
