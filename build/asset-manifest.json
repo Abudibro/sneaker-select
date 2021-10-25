@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7ef36b2b.chunk.css",
+    "main.js": "/static/js/main.3c4ab010.chunk.js",
+    "main.js.map": "/static/js/main.3c4ab010.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7a17ee8c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7a17ee8c.js.map",
+    "static/css/2.766496a7.chunk.css": "/static/css/2.766496a7.chunk.css",
+    "static/js/2.1cba6fe8.chunk.js": "/static/js/2.1cba6fe8.chunk.js",
+    "static/js/2.1cba6fe8.chunk.js.map": "/static/js/2.1cba6fe8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.766496a7.chunk.css.map": "/static/css/2.766496a7.chunk.css.map",
+    "static/css/main.7ef36b2b.chunk.css.map": "/static/css/main.7ef36b2b.chunk.css.map",
+    "static/js/2.1cba6fe8.chunk.js.LICENSE.txt": "/static/js/2.1cba6fe8.chunk.js.LICENSE.txt",
+    "static/media/FB.f1c3dfd0.png": "/static/media/FB.f1c3dfd0.png",
+    "static/media/IG.c584045e.png": "/static/media/IG.c584045e.png",
+    "static/media/air-force.91b6c727.png": "/static/media/air-force.91b6c727.png",
+    "static/media/air-jordan.c7653b41.jpg": "/static/media/air-jordan.c7653b41.jpg",
+    "static/media/air-max.ee605ad1.png": "/static/media/air-max.ee605ad1.png",
+    "static/media/amex.9bb47f3e.png": "/static/media/amex.9bb47f3e.png",
+    "static/media/hero-bg-2.55524ba3.png": "/static/media/hero-bg-2.55524ba3.png",
+    "static/media/hero-bg-3.24892210.jpg": "/static/media/hero-bg-3.24892210.jpg",
+    "static/media/hero-bg.44269788.jpg": "/static/media/hero-bg.44269788.jpg",
+    "static/media/mastercard.b836a781.png": "/static/media/mastercard.b836a781.png",
+    "static/media/paypal.858432bd.png": "/static/media/paypal.858432bd.png",
+    "static/media/visa.67057512.png": "/static/media/visa.67057512.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a17ee8c.js",
+    "static/css/2.766496a7.chunk.css",
+    "static/js/2.1cba6fe8.chunk.js",
+    "static/css/main.7ef36b2b.chunk.css",
+    "static/js/main.3c4ab010.chunk.js"
+  ]
+}
